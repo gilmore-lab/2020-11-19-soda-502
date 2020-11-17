@@ -1,0 +1,19 @@
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+h3 {
+  font-size: 44px;
+}
+p, li, td {
+  font-size: 38px;
+}
+.talktitle {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.citation {
+  font-size: 24px;
+}
+
