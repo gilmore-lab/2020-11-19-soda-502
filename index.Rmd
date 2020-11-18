@@ -16,7 +16,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
 ```
 
 # Preliminaries
@@ -229,6 +229,9 @@ databraryapi::get_db_stats()
 
 <https://github.com/PLAY-behaviorome/databraryapi>
 
+
+# Whither open science
+
 ## Databrary 2.0
 
 - Updated policy framework
@@ -238,9 +241,35 @@ databraryapi::get_db_stats()
 
 [Results from recent community survey](https://docs.google.com/forms/d/1rgQ-eBXEopn_EU2CYHv9P5ao_R2PIFCqKT3nwiIHiFM/edit#responses)
 
+## One dataset, many analysts
+
+```{r, out.width="800px", fig.cap="[[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)"}
+knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg")
+```
+
+---
+
+```{r, fig.cap="[[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)"}
+knitr::include_graphics("img/botvinick-nezer-2020.png")
+```
+
+---
+
+>*...no two teams chose identical workfows to analyse the data. This flexibility resulted in sizeable variation in the results of hypothesis tests...*
+
+>*Our findings show that analytical flexibility can have substantial effects on scientific conclusions... The results emphasize the importance of validating and sharing complex analysis workflows, and demonstrate the need for performing and reporting multiple analyses of the same data.*
+
+[[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)
+
+---
+
+```{r, out.width="600px"}
+knitr::include_graphics("https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp")
+```
+
 # Discussion
 
-## Where do researchers in your field share your data and materials?
+## Where do researchers in your field share your data, materials, and analysis workflows?
 
 ## If sharing data and materials is not commonplace, why?
 
