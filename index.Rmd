@@ -16,7 +16,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Preliminaries
@@ -243,13 +243,13 @@ databraryapi::get_db_stats()
 
 ## One dataset, many analysts
 
-```{r, out.width="800px", fig.cap="[[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)"}
+```{r, out.width="800px", fig.align = 'center', fig.cap="[[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)"}
 knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg")
 ```
 
 ---
 
-```{r, fig.cap="[[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)"}
+```{r, fig.align = 'center', fig.cap="[[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)"}
 knitr::include_graphics("img/botvinick-nezer-2020.png")
 ```
 
@@ -263,7 +263,7 @@ knitr::include_graphics("img/botvinick-nezer-2020.png")
 
 ---
 
-```{r, out.width="600px"}
+```{r, out.width="600px", fig.align = 'center'}
 knitr::include_graphics("https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp")
 ```
 
@@ -319,4 +319,4 @@ Information about the R Session that produced the code is as follows:
 sessionInfo()
 ```
 
-## References
+## References {.smaller}
