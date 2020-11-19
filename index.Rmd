@@ -124,6 +124,35 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 
 <!-- Manifesto for reproducible science -->
 
+## File drawer problem
+
+```{r, out.width='900px', fig.align='center', fig.cap='[[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)'}
+knitr::include_graphics("img/rosenthal-1979-file-drawer-problem.png")
+```
+
+## Inference is underpowered
+
+
+```{r, out.width="900px", fig.align='center', fig.cap="[[@Szucs2017-fc]](https://doi.org/10.1371/journal.pbio.2000797)"}
+knitr::include_graphics("https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large")
+```
+
+---
+
+<div class="centered">
+>*Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole literature.*
+
+[[@Szucs2017-fc]](https://doi.org/10.1371/journal.pbio.2000797)
+</div>
+
+---
+
+```{r, out.width="600px", fig.align = 'center'}
+knitr::include_graphics("https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp")
+```
+
+<!-- It's a flesh wound gif -->
+
 ## Why should we care?
 
 - Emphasizing transparency and openness in science...
@@ -229,7 +258,6 @@ databraryapi::get_db_stats()
 
 <https://github.com/PLAY-behaviorome/databraryapi>
 
-
 # Whither open science
 
 ## Databrary 2.0
@@ -240,6 +268,30 @@ databraryapi::get_db_stats()
 ## Community survey (October 2020)
 
 [Results from recent community survey](https://docs.google.com/forms/d/1rgQ-eBXEopn_EU2CYHv9P5ao_R2PIFCqKT3nwiIHiFM/edit#responses)
+
+## Why is data sharing valuable?
+
+>*transparency and openness in science*
+
+>*efficient use of effort and tax money*
+
+>*it's fundamental to science*
+
+>*draw on a broader, more representative sample.*
+
+>*Ethical: Why recollect data when it's not needed.*
+
+## Why do you think more researchers don't share their data?
+
+>*Hard to do*
+
+>*People are incentivized to collect new data*
+
+>*IRB restrictions*
+
+>*It's hard and invites criticism*
+
+>*Fear of being scooped*
 
 ## One dataset, many analysts
 
@@ -255,17 +307,13 @@ knitr::include_graphics("img/botvinick-nezer-2020.png")
 
 ---
 
+<div class="centered">
 >*...no two teams chose identical workfows to analyse the data. This flexibility resulted in sizeable variation in the results of hypothesis tests...*
 
 >*Our findings show that analytical flexibility can have substantial effects on scientific conclusions... The results emphasize the importance of validating and sharing complex analysis workflows, and demonstrate the need for performing and reporting multiple analyses of the same data.*
 
 [[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)
-
----
-
-```{r, out.width="600px", fig.align = 'center'}
-knitr::include_graphics("https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp")
-```
+</div>
 
 # Discussion
 

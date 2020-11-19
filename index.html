@@ -103,7 +103,7 @@ slide:not(.current) .plotly.html-widget{
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2020-11-18 12:17:22</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2020-11-19 07:57:48</p>
           </hgroup>
   </slide>
 
@@ -216,6 +216,43 @@ slide:not(.current) .plotly.html-widget{
 
 <!-- Manifesto for reproducible science -->
 
+</article></slide><slide class=""><hgroup><h2>File drawer problem</h2></hgroup><article  id="file-drawer-problem">
+
+<div style="text-align: center" class="figure">
+<img src="img/rosenthal-1979-file-drawer-problem.png" alt="[[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)" width="900px" />
+
+<p class="caption">
+
+<a href='https://doi.org/10.1037/0033-2909.86.3.638' title=''><span class="cite">(Rosenthal, 1979)</span></a>
+
+</p></div>
+
+</article></slide><slide class=""><hgroup><h2>Inference is underpowered</h2></hgroup><article  id="inference-is-underpowered">
+
+<div style="text-align: center" class="figure">
+<img src="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large" alt="[[@Szucs2017-fc]](https://doi.org/10.1371/journal.pbio.2000797)" width="900px" />
+
+<p class="caption">
+
+<a href='https://doi.org/10.1371/journal.pbio.2000797' title=''><span class="cite">(Szucs &amp; Ioannidis, 2017)</span></a>
+
+</p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<blockquote>
+<p><em>Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole literature.</em></p>
+</blockquote>
+
+<p><a href='https://doi.org/10.1371/journal.pbio.2000797' title=''><span class="cite">(Szucs &amp; Ioannidis, 2017)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<p><img src="https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp" width="600px" style="display: block; margin: auto;" /></p>
+
+<!-- It's a flesh wound gif -->
+
 </article></slide><slide class=""><hgroup><h2>Why should we care?</h2></hgroup><article  id="why-should-we-care">
 
 <ul>
@@ -298,7 +335,7 @@ slide:not(.current) .plotly.html-widget{
 <li>World’s only data library specialized for storing and sharing video and audio</li>
 <li>Hosted at New York University</li>
 <li>Opened 2014</li>
-<li>614 institutions; 1851 researchers; 66,979 hours of video + other data; 633 shared projects</li>
+<li>614 institutions; 1852 researchers; 67,327 hours of video + other data; 634 shared projects</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>How Databrary protects personal data</h2></hgroup><article  id="how-databrary-protects-personal-data">
@@ -347,12 +384,10 @@ slide:not(.current) .plotly.html-widget{
 
 <pre class = 'prettyprint lang-r'>databraryapi::get_db_stats()</pre>
 
-<pre >##                  date investigators affiliates
-## 1 2020-11-18 12:17:22          1236        615
-##   institutions datasets_total datasets_shared
-## 1          614           1201             633
-##   n_files    hours       TB
-## 1  150044 66978.85 27.87347</pre>
+<pre >##                  date investigators affiliates institutions
+## 1 2020-11-19 07:57:48          1236        616          614
+##   datasets_total datasets_shared n_files    hours       TB
+## 1           1202             634  150167 67326.81 27.93452</pre>
 
 <p><a href='https://github.com/PLAY-behaviorome/databraryapi' title=''>https://github.com/PLAY-behaviorome/databraryapi</a></p>
 
@@ -368,6 +403,50 @@ slide:not(.current) .plotly.html-widget{
 </article></slide><slide class=""><hgroup><h2>Community survey (October 2020)</h2></hgroup><article  id="community-survey-october-2020">
 
 <p><a href='https://docs.google.com/forms/d/1rgQ-eBXEopn_EU2CYHv9P5ao_R2PIFCqKT3nwiIHiFM/edit#responses' title=''>Results from recent community survey</a></p>
+
+</article></slide><slide class=""><hgroup><h2>Why is data sharing valuable?</h2></hgroup><article  id="why-is-data-sharing-valuable">
+
+<blockquote>
+<p><em>transparency and openness in science</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>efficient use of effort and tax money</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>it’s fundamental to science</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>draw on a broader, more representative sample.</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>Ethical: Why recollect data when it’s not needed.</em></p>
+</blockquote>
+
+</article></slide><slide class=""><hgroup><h2>Why do you think more researchers don’t share their data?</h2></hgroup><article  id="why-do-you-think-more-researchers-dont-share-their-data">
+
+<blockquote>
+<p><em>Hard to do</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>People are incentivized to collect new data</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>IRB restrictions</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>It’s hard and invites criticism</em></p>
+</blockquote>
+
+<blockquote>
+<p><em>Fear of being scooped</em></p>
+</blockquote>
 
 </article></slide><slide class=""><hgroup><h2>One dataset, many analysts</h2></hgroup><article  id="one-dataset-many-analysts">
 
@@ -393,6 +472,7 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
 
+<div class="centered">
 <blockquote>
 <p><em>…no two teams chose identical workfows to analyse the data. This flexibility resulted in sizeable variation in the results of hypothesis tests…</em></p>
 </blockquote>
@@ -401,11 +481,7 @@ slide:not(.current) .plotly.html-widget{
 <p><em>Our findings show that analytical flexibility can have substantial effects on scientific conclusions… The results emphasize the importance of validating and sharing complex analysis workflows, and demonstrate the need for performing and reporting multiple analyses of the same data.</em></p>
 </blockquote>
 
-<p><a href='https://doi.org/10.1177/2515245917747646' title=''><span class="cite">(Botvinik-Nezer et al., 2020)</span></a></p>
-
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
-
-<p><img src="https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.webp?cid=ecf05e47yjvat0dd7qo18too3gfu6o2hf9kybv0bfl9oexd3&rid=giphy.webp" width="600px" style="display: block; margin: auto;" /></p>
+<p><a href='https://doi.org/10.1177/2515245917747646' title=''><span class="cite">(Botvinik-Nezer et al., 2020)</span></a></p></div>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Discussion</h2></hgroup><article  id="discussion">
 
@@ -457,7 +533,7 @@ slides > slide:not(.nobackground):after {
 }
 </style>
 
-<p>This talk was produced on 2020-11-18 in <a href='http://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/gilmore-lab/2020-11-19-soda-502' title=''>https://github.com/gilmore-lab/2020-11-19-soda-502</a>. Information about the R Session that produced the code is as follows:</p>
+<p>This talk was produced on 2020-11-19 in <a href='http://rstudio.com' title=''>RStudio</a> using R Markdown. The code and materials used to generate the slides may be found at <a href='https://github.com/gilmore-lab/2020-11-19-soda-502' title=''>https://github.com/gilmore-lab/2020-11-19-soda-502</a>. Information about the R Session that produced the code is as follows:</p>
 
 <pre >## R version 3.6.2 (2019-12-12)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
@@ -471,25 +547,21 @@ slides > slide:not(.nobackground):after {
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
 ## attached base packages:
-## [1] stats     graphics  grDevices utils    
-## [5] datasets  methods   base     
+## [1] stats     graphics  grDevices utils     datasets 
+## [6] methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] png_0.1-7          packrat_0.5.0     
-##  [3] digest_0.6.25      R6_2.4.1          
-##  [5] jsonlite_1.7.1     magrittr_1.5      
-##  [7] evaluate_0.14      highr_0.8         
-##  [9] httr_1.4.2         rlang_0.4.7       
-## [11] stringi_1.5.3      curl_4.3          
-## [13] databraryapi_0.2.4 rmarkdown_2.3     
-## [15] tools_3.6.2        stringr_1.4.0     
-## [17] xfun_0.17          yaml_2.2.1        
-## [19] compiler_3.6.2     htmltools_0.5.0   
-## [21] knitr_1.29</pre>
+##  [1] png_0.1-7          packrat_0.5.0      digest_0.6.25     
+##  [4] R6_2.4.1           jsonlite_1.7.1     magrittr_1.5      
+##  [7] evaluate_0.14      highr_0.8          httr_1.4.2        
+## [10] rlang_0.4.7        stringi_1.5.3      curl_4.3          
+## [13] databraryapi_0.2.4 rmarkdown_2.3      tools_3.6.2       
+## [16] stringr_1.4.0      xfun_0.17          yaml_2.2.1        
+## [19] compiler_3.6.2     htmltools_0.5.0    knitr_1.29</pre>
 
-</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  class="unnumbered smaller" id="references">
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
 
-<div class="references hanging-indent" id="refs">
+<div id="refs" class="references hanging-indent">
 <div id="ref-Adolph_KE_Gilmore_RO_Kennedy_JL2017-va">
 <p>Adolph, K.E., Gilmore, R.O., &amp; Kennedy, J.L. (2017). Video as data and documentation will improve psychological science. <a href='https://www.apa.org/science/about/psa/2017/10/video-data' title=''>https://www.apa.org/science/about/psa/2017/10/video-data</a>. Retrieved from <a href='https://www.apa.org/science/about/psa/2017/10/video-data' title=''>https://www.apa.org/science/about/psa/2017/10/video-data</a></p></div>
 
@@ -508,11 +580,17 @@ slides > slide:not(.nobackground):after {
 <div id="ref-Reeves2020-fh">
 <p>Reeves, B., Robinson, T., &amp; Ram, N. (2020). Time for the human screenome project. <em>Nature</em>, <em>577</em>(7790), 314–317. <a href='https://doi.org/10.1038/d41586-020-00032-5' title=''>https://doi.org/10.1038/d41586-020-00032-5</a></p></div>
 
+<div id="ref-Rosenthal1979-zi">
+<p>Rosenthal, R. (1979). The file drawer problem and tolerance for null results. <em>Psychological Bulletin</em>, <em>86</em>(3), 638–641. <a href='https://doi.org/10.1037/0033-2909.86.3.638' title=''>https://doi.org/10.1037/0033-2909.86.3.638</a></p></div>
+
 <div id="ref-Silberzahn2018-st">
 <p>Silberzahn, R., Uhlmann, E. L., Martin, D. P., Anselmi, P., Aust, F., Awtrey, E., … Nosek, B. A. (2018). Many analysts, one data set: Making transparent how variations in analytic choices affect results. <em>Advances in Methods and Practices in Psychological Science</em>, <em>1</em>(3), 337–356. <a href='https://doi.org/10.1177/2515245917747646' title=''>https://doi.org/10.1177/2515245917747646</a></p></div>
 
 <div id="ref-Srcd2019-hg">
-<p>SRCD. (2019). Policy on scientific integrity, transparency, and openness | society for Research in Child Development SRCD. <a href='https://www.srcd.org/policy-scientific-integrity-transparency-and-openness' title=''>https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>. Retrieved from <a href='https://www.srcd.org/policy-scientific-integrity-transparency-and-openness' title=''>https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a></p></div></div></article></slide>
+<p>SRCD. (2019). Policy on scientific integrity, transparency, and openness | society for Research in Child Development SRCD. <a href='https://www.srcd.org/policy-scientific-integrity-transparency-and-openness' title=''>https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>. Retrieved from <a href='https://www.srcd.org/policy-scientific-integrity-transparency-and-openness' title=''>https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a></p></div>
+
+<div id="ref-Szucs2017-fc">
+<p>Szucs, D., &amp; Ioannidis, J. P. A. (2017). Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature. <em>PLoS Biology</em>, <em>15</em>(3), e2000797. <a href='https://doi.org/10.1371/journal.pbio.2000797' title=''>https://doi.org/10.1371/journal.pbio.2000797</a></p></div></div></article></slide>
 
 
   <slide class="backdrop"></slide>
