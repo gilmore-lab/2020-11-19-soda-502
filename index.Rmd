@@ -264,10 +264,9 @@ databraryapi::get_db_stats()
 
 - Updated policy framework
 - Rewriting in Node.js, Hasura/GraphQL, Vue.js/Quasar
-
-## Community survey (October 2020)
-
-[Results from recent community survey](https://docs.google.com/forms/d/1rgQ-eBXEopn_EU2CYHv9P5ao_R2PIFCqKT3nwiIHiFM/edit#responses)
+- [Results from recent community survey](https://docs.google.com/forms/d/1rgQ-eBXEopn_EU2CYHv9P5ao_R2PIFCqKT3nwiIHiFM/edit#responses)
+    - Make uploading & curation easier
+    - Hooks to make AI/ML easier
 
 ## Why is data sharing valuable?
 
