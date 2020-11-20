@@ -311,7 +311,7 @@ knitr::include_graphics("img/botvinick-nezer-2020.png")
 
 >*Our findings show that analytical flexibility can have substantial effects on scientific conclusions... The results emphasize the importance of validating and sharing complex analysis workflows, and demonstrate the need for performing and reporting multiple analyses of the same data.*
 
-[[@Botvinik-Nezer2020]](https://doi.org/10.1177/2515245917747646)
+[[@Botvinik-Nezer2020]](https://doi.org/10.1038/s41586-020-2314-9)
 </div>
 
 # Discussion
